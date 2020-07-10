@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Labour">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Labour And Employment"
+        android:paddingLeft="110dp"
+        android:textColor="#000000"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/filter"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/labourRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingTop="5dp"/>
+</LinearLayout>
