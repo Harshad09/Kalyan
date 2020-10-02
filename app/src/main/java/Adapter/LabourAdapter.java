@@ -60,6 +60,7 @@ public class LabourAdapter extends Adapter <LabourAdapter.LabourAdapterViewHolde
     public void setEntityFilter(List<LabourModel> entity) {
         this.entityFilter = new ArrayList<>(entity);
         notifyDataSetChanged();
+        //adapter
     }
 
 
